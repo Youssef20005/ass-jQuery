@@ -1,0 +1,139 @@
+
+.main{
+    position: relative;
+    background-image: url("../events-heavenly-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: white;
+   
+
+}
+.overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.sider-content{
+    background-color: brown;
+    color: white;
+}
+h3{
+    cursor: pointer;
+}
+.singer{
+    background-color: #cecccc;
+    display: none;
+}
+.item{
+    border: 1px solid #fff;
+padding: 3.125rem;
+color: #fff;
+
+font-size: 1.5rem;
+}
+#counter{
+    background-image: url("../invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    
+}
+.overlay-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.container{
+    padding: 100px 0px;
+}
+#contact .icons p {
+    margin-bottom: 35px;
+}
+#contact .elem-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#contact .red {
+    color: #D62E33 !important;
+}
+#contact .icons {
+    margin-top: 50px;
+}
+.elem p{
+    color: #777777;
+}
+#contact p{
+    text-align: center;
+}
+#contact .contact-icons i{
+    border: 1px solid black;
+    padding: 12px;
+    margin: 7px;
+    cursor: pointer;
+}
+#contact .contact-icons i:hover {
+    background-color: #D62E33;
+    color: #fff;
+}
+#contact form textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+ #contact-us form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.form-control{
+   
+    border-radius: 0;
+ 
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    z-index: 999999;
+}
+.menue-icon {
+    cursor: pointer;
+    display: flex; /* Add flex container */
+    align-items: center;
+    justify-content: center;
+}
+.icon-x{
+    position: absolute;
+   top: 0;
+    
+   right: 0;
+}
+.menue a{
+    color: #fff;
+    font-size: .9375rem;
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+}
+.menue{
+    position: relative;
+    width: 200px;
+    height: 100vh;
+    
+    background-color: black;
+}
